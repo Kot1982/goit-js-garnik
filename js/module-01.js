@@ -104,5 +104,35 @@
 // 	For “User” show “Good evening, dear User!”
 // 	For “Admin” show “Good evening, dear Admin!
 
-const hours = new Date().getHours();
-console.log(hours);
+// const hours = new Date().getHours();
+// console.log(hours);
+// Decision
+// const login = prompt("Enter your login");
+// const hours = new Date().getHours();
+
+// if (!login) {
+//   alert("Canceled");
+// } else if (login.length < 4) {
+//   alert("I don't know any users having name length less than 4 symbols");
+// } else if (login === "User" || login === "Admin") {
+//   const password = prompt("Enter your password");
+//   if (!password) {
+//     alert("Canceled");
+//   } else if (login === "Admin" && password === "RootPass") {
+//     if (hours >= 5 && hours <= 20) {
+//       alert("Good day, dear Admin!");
+//     } else {
+//       alert("Good evening, dear Admin!");
+//     }
+//   } else if (login === "User" && password === "UserPass") {
+//     if (hours >= 5 && hours <= 20) {
+//       alert("Good day, dear User!");
+//     } else {
+//       alert("Good evening, dear User!");
+//     }
+//   } else {
+//     alert("Wrong password");
+//   }
+// } else {
+//   alert("I don’t know you");
+// }

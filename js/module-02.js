@@ -69,9 +69,6 @@
 //         } else {
 //             newArray.push(number);
 //         }
-
-
-
 //     }
 //     return newArray
 // }
@@ -84,6 +81,8 @@
 // It should return an array of converted values.
 
 // convert('1', 2, 3, '4') // [1, '2', '3', 4]
+
+// 5.1
 // function convert(...array) {
 //     let newArray = [];
 //     for (let element of array) {
@@ -97,6 +96,8 @@
 //     } return newArray;
 // }
 // console.log(convert('1', 2, 3, '4'));
+
+// 5.2
 // function convert(...array) {
 //     let newArray = [];
 //     for (let element of array) {
@@ -115,6 +116,7 @@
 // // makeListFromRange([2, 7]) // [2, 3, 4, 5, 6, 7]
 // // makeListFromRange([8, 5]) // [5, 6, 7, 8]
 
+// 6.1
 // function makeListFromRange(array) {
 //     let newArray = [];
 //     if (array[0] > array[1]) {
@@ -128,8 +130,10 @@
 //     }
 //     return newArray;
 // }
+// console.log(makeListFromRange([2, 7]));
 // console.log(makeListFromRange([8, 5]));
 
+// 6.2
 // function makeListFromRange(array) {
 //     let newArray = [];
 //     const [a, b] = array[0] <= array[1] ? array : [array[1], array[0]];
@@ -138,6 +142,7 @@
 //     }
 //     return newArray;
 // }
+
 // console.log(makeListFromRange([2, 7]));
 // console.log(makeListFromRange([8, 5]));
 
@@ -245,3 +250,5 @@
 //   console.log(allUser);
 // }
 // userInfo(users);
+
+// в ключі записати пврвметри, щоб не аовторювались 

@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+}
+
+.listdiv {
+    background-color: greenyellow;
+    width: 40%;
+    height: 100vh;
+}
+
+.infodiv {
+    background-color: grey;
+    width: 60%;
+    height: 100vh;
+}
+
+.bookslist {
+    list-style: none;
+}
+
+.button {
+    /* height: 50%; */
+    border-radius: 5px;
+    border: none;
+    margin-left: 40px;
+}
+
+.edit-btn {
+    margin-left: auto;
+    height: 50%;
+    border-radius: 5px;
+    border: none;
+}
+.del-btn {
+    height: 50%;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.book-item {
+    display: flex;  
+    padding: 5px; 
+    align-items: center; 
+}
+.book-item:not(:last-child) {
+    margin-bottom: 10px;
+}
